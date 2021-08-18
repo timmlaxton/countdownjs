@@ -7,3 +7,39 @@
 body {
   font-family: sans-serif;
 }
+
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: red;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.clock {
+  width: 80vw;
+  height: 50vh;
+  margin-top: 3rem;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 3rem;
+}
